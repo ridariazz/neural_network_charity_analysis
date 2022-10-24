@@ -58,25 +58,31 @@ For my model, I had chosen four layers:
 
 For our analysis, it seems sigmoid was the better fit for layers 3 and 4 while relu activation was better for layers 1 and 2. 
 
-(add model 2 image)
+![neurons_model2](https://user-images.githubusercontent.com/106577074/197641653-b1b8844d-8bb9-4584-8de1-5244ca2290ec.png)
 
 2. Were you able to achieve the target model performance? 
 
 The target for the model is 75%, but we weren't able to reach that percentage. Our non-optimzation model's accuracy was 68.4%. Moreover, to improve our model's accuracy performance, we increased the accuracy to 72.5% in the optimzation analysis. However, we were unable to achieve the target model performance from both models. 
 
-(model 1 accuracy)
+![accuracy_model1](https://user-images.githubusercontent.com/106577074/197641685-dbb4389b-8957-463a-b578-e173abe5ae13.png)
 
-(model 2 accuracy)
+![accuracy_model2](https://user-images.githubusercontent.com/106577074/197641702-5031abdb-0fc5-4ef9-8200-07743f2f46f0.png)
 
 3. What steps did you take to try and increase model performance?
 
 Went ahead and dropped more columns on our second analysis **'EIN','NAME','STATUS','USE_CASE'.** Also, I added 2 additional layers to the mode and it seems sigmoid as well as relu pair well together. By doing so, the model accuracy went up from 68.4% to 72.5%
 
-(model 1 neurons) 
+*Model 1*
 
-(model 2 neurons)
+![neurons_model1](https://user-images.githubusercontent.com/106577074/197641738-3a51d0ae-3c48-4748-9fa4-ef9ae7dddff9.png)
 
-(model 2 columns)
+*Model 2* 
+
+![neurons_model2](https://user-images.githubusercontent.com/106577074/197641807-1b332689-b2f6-4c7f-a3f5-e26cf4c65d31.png)
+
+*Revised Columns*
+
+![columns_model2](https://user-images.githubusercontent.com/106577074/197641854-a8a6e115-2337-4c6f-b7ac-07a4db40327a.png)
 
 # Summary 
 
